@@ -4,9 +4,9 @@
 /**
  * main - Entry point
  *
- * Description - executing a loop
+ * Description: executing my type of loop
  *
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 
