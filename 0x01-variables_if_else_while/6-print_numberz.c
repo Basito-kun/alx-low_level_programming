@@ -11,7 +11,7 @@
 int main(void)
 
 {
-	char con;
+	int con;
 
 	for (con = '0'; con <= '9'; con++)
 	{
