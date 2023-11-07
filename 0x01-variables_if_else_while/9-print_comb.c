@@ -12,12 +12,17 @@ int main(void)
 
 {
 	int smh;
+	int ko = 9;
 
-	for (smh = 0; smh < 10; smh++)
+	for (smh = 0; smh < 9; smh++)
 	{
 		putchar(smh + '0');
 		putchar(',');
 		putchar(' ');
+	}
+
+	{
+		putchar(ko + '0');
 	}
 
 	return (0);
