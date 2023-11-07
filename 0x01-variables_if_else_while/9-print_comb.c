@@ -11,18 +11,13 @@
 int main(void)
 
 {
-	int alpha;
-	int beta;
+	int smh;
 
-	for (alpha = 0; alpha < 10; alpha++)
+	for (smh = 0; smh < 10; smh++)
 	{
-		for (beta = 0; beta < 10; beta++)
-		{
-			putchar(alpha + '0');
-			putchar(',');
-			putchar(beta + '0');
-			putchar(' ');
-		}
+		putchar(smh + '0');
+		putchar(',');
+		putchar(' ');
 	}
 
 	return (0);
