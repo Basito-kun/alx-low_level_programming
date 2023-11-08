@@ -12,17 +12,19 @@ int main(void)
 
 {
 	int smh;
-	int ko = 9;
 
-	for (smh = 0; smh < 9; smh++)
+	for (smh = 0; smh <= 9; smh++)
 	{
-		putchar(smh + '0');
-		putchar(',');
-		putchar(' ');
-	}
-
-	{
-		putchar(ko + '0');
+		if (smh == 9)
+		{
+			putchar(smh + '0');
+		}
+		else
+		{
+			putchar(smh + '0');
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	return (0);
