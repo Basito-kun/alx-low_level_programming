@@ -19,6 +19,10 @@ int main(void)
 	return (0);
 }
 
+/**
+ * print_alphabet - prints the lower case alphabets with putchar only to stdout
+ * @void: the character to print.
+ */
 void print_alphabet(void)
 {
 	char ichi;
