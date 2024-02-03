@@ -1,10 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#if header
-	#include "main.h"
-#elif header2
-	#include "main2.h"
-#endif
 /**
  * main - Entry point
  *
@@ -21,7 +16,7 @@ int main(void)
 
 /**
  * print_alphabet - prints the lower case alphabets with putchar only to stdout
- * @void: the character to print.
+ * @void: The character to print.
  */
 void print_alphabet(void)
 {
@@ -29,8 +24,8 @@ void print_alphabet(void)
 
 	for (ichi = 'a'; ichi <= 'z'; ichi++)
 	{
-		putchar(ichi);
+		_putchar(ichi);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
