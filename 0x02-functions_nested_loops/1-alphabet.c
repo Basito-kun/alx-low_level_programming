@@ -7,12 +7,6 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
 
 /**
  * print_alphabet - prints the lower case alphabets with putchar only to stdout
