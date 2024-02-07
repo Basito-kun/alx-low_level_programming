@@ -1,16 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-/**
- * main - Entry point
- *
- * Description: working with header files(printing a-z)
- *
- * Return: Always 0 (success)
- */
 
 /**
- * print_alphabet - prints the lower case alphabets with putchar only to stdout
- * @void: The character to print.
+ * print_alphabet - writes the char ichi to stdout
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void print_alphabet(void)
 {
