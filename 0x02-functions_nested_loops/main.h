@@ -16,4 +16,10 @@ int _putchar(char c);
  */
 void print_alphabet(void);
 
+/**
+ * print_alphabet_x10 - prints the lower case alphabets repeatedly(x10) to stdout
+ * @void: The character to print.
+ */
+void print_alphabet_x10(void);
+
 #endif
